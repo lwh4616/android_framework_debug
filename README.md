@@ -12,4 +12,4 @@ repo init -u https://android.googlesource.com/platform/manifest -b android-6.0.0
 4 使用android studio带入framework源码 点击 attach  debugger to android process 
   如果想debug anroid server层的代码 选择system_server 进程 在相应的地方打断点.
   
-  我主要用来调试AMS 在ActivityManagerService 的方法里面打断点。 上层的注意断点Activity ActivityStack Instumentation等一些关键方法
+  我主要用来调试AMS 在ActivityManagerService 的方法里面打断点。 上层的主要断点Activity ActivityStack Instumentation等一些关键方法
