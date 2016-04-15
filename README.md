@@ -4,6 +4,8 @@
 1 首先建立代码层库
 repo init -u https://android.googlesource.com/platform/manifest -b android-6.0.0_r1
 
+国内镜像 repo init -u http://mirrors.ustc.edu.cn/aosp/platform/manifest -b android-6.0.0_r1
+
 2 同步子木块 我们只需要framework代码就可以了
   repo sync platform/frameworks/base
   如果想看cpp代码 同步 repo sync platform/frameworks/native
